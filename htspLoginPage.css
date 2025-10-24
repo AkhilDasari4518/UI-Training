@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    align-items: center;
+    height: 100vh;
+}
+
+.inner-container {
+    font-size: 12px;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-element {
+    display: flex;
+    gap: 6px;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+.space-around-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.space-around-box div {
+    display: flex;
+    align-items: center;
+}
+
+.space-around-box a {
+    color: black;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.header-title {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 28px;
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border-width: 0;
+    font-size: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-btn {
+    background-color: lightcoral;
+    color: white;
+}
+
+.google-sign-in-btn {
+    background-color: white;
+}
+
+.apple-sign-in-btn {
+    background-color: black;
+    color: white;
+}
+
+.microsoft-sign-in-btn {
+    background-color: gray;
+    color: white;
+}
+
+.logo {
+    margin-right: 10px;
+    width: auto;
+    height: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+footer u {
+    color: blue
+}
+
+.divider {
+    display: flex;
+    margin: 20px 0;
+}
+
+.divider hr {
+    width: 100%;
+}
+
+.divider span {
+    padding: 0 10px;
+}
