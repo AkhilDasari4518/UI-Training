@@ -112,3 +112,24 @@ footer u {
 .divider span {
     padding: 0 10px;
 }
+
+/* Responsive design */
+@media (max-width: 450px) {
+  .container {
+    background: none;
+    padding: 0;
+  }
+
+  .inner-container {
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .header-title {
+    font-size: 1rem;
+  }
+}
