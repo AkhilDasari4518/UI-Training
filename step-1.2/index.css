@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 98vh;
+    scrollbar-width: auto;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.row1 {
+    padding: 20px;
+    flex: 1;
+    flex-shrink: 0;
+    background-color: blue;
+}
+
+.sideBarNav {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+    background-color: green;
+}
+
+.sideBarContent {
+    display: flex;
+    overflow: auto;
+}
+
+.row2 {
+    overflow: auto;
+    flex-grow:initial;
+    flex: 3;
+    display: flex;
+}
+
+.contentBox {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.relatedContentBox {
+    flex: 1;
+    display: flex;
+}
+
+.mainArea {
+    padding: 20px;
+    flex: 1;
+    background-color: violet;
+}
+
+div {
+    border-radius: 4px;
+}
+
+.relatedContentBox div {
+    padding: 20px;
+    background-color: aqua;
+}
+
+.row3 {
+    flex-shrink: 0;
+    padding: 20px;
+    flex: 1;
+    background-color: gray;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.flex1 {
+    flex: 1;
+}
