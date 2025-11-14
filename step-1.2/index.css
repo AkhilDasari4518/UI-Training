@@ -1,6 +1,4 @@
 html, body {
-  height: 100dvh;
-  overflow: hidden;
   margin: 0;
   padding: 0;
 }
@@ -11,6 +9,8 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
+    height: 100dvh;
     color: white;
     font-family: sans-serif;
     display: flex;
