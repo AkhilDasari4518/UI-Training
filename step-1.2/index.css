@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    box-sizing: border-box;
+    height: 100dvh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.row1 {
+    padding: 20px;
+    flex: 1;
+    background-color: blue;
+}
+
+.side-bar-nav {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+    background-color: green;
+}
+
+.side-bar-content {
+    display: flex;
+    overflow: auto;
+}
+
+.row2 {
+    overflow: auto;
+    flex: 2;
+    display: flex;
+}
+
+.content-box {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.related-content-box {
+    flex: 1;
+    display: flex;
+}
+
+.main-area {
+    padding: 20px;
+    flex: 1;
+    background-color: violet;
+}
+
+div {
+    border-radius: 4px;
+}
+
+.related-content-box div {
+    padding: 20px;
+    background-color: aqua;
+}
+
+.row3 {
+    padding: 20px;
+    flex: 1;
+    background-color: gray;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.flex1 {
+    flex: 1;
+}
