@@ -46,8 +46,6 @@ body {
         flex-wrap: wrap;
     }
     .content1 {
-        width: 50vw;
-        height: 50%;
         order: 1;
         flex: none;
     }
