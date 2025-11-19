@@ -45,22 +45,19 @@ body {
         flex: 5;
         flex-wrap: wrap;
     }
+
     .content1 {
+        flex: 1 1 50%;
         order: 1;
-        flex: none;
     }
 
     .content2 {
-        height:50%;
-        width: 100vw;
-        flex: none;
+        flex: 1 1 100%;
         order: 3;
     }
 
     .content3 {
-        height: 50%;
-        width: 50vw;
-        flex: none;
+        flex: 1 1 50%;
         order: 2;
     }
 }
