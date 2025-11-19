@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-.row1 {
+.row1, .row3 {
     flex: 1;
     background-color: lightblue;
 }
@@ -17,11 +17,6 @@ body {
 .row2 {
     display: flex;
     flex: 3;
-}
-
-.row3 {
-    flex: 1;
-    background-color: lightblue;
 }
 
 .content1 {
