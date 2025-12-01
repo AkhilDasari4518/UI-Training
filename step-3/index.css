@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+img {
+    display: inline;
+    height: 24px;
+    width: 24px;
+}
+
+p, div {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.h-100dvh {
+    height: 100dvh;
+}
+
+.orange {
+    color: #E37400;
+}
+
+.bg-gray {
+    background-color: #F2F2F2;
+}
+
+.add-apps {
+    background-color: #f54927;
+}
+
+.sidebar {
+    background-color: #e5e5e5 !important;
+    width: 70px;
+    min-width: 70px;
+    overflow: auto;
+    padding: 12px 2px;
+    box-sizing: content-box;
+    gap: 16px;
+}
+
+.sidebar div {
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.sidebar p {
+    display: flex;
+}
+
+.custom-nav {
+    background-color: #e5e5e5;
+    padding: 2px 8px;
+    margin: 0;
+}
+
+.navbar-brand {
+    color: #E37400;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    max-width: 150px;
+    flex-grow: 1;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-width: 0;
+    margin: 20px;
+}
+
+.app-cards {
+    justify-content: space-between;
+}
+
+.search-box {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 6px;
+    background-color: white;
+    padding: 0 12px;
+    border-radius: 4px;
+}
+
+.search-input {
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.header-controls {
+    display: flex;
+    gap: 20px;
+}
+
+.header-controls div {
+    display: inline;
+}
+
+.account-icon {
+    box-sizing: content-box;
+    height: 24px;
+    width: 24px;
+    justify-items: center;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+.notification {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 230, 230, 1) 0%, rgba(235, 239, 255, 1) 100%);
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+}
+
+.bg-green {
+    background-color: #208789;
+}
