@@ -28,7 +28,7 @@ p, div {
     background-color: #F2F2F2;
 }
 
-.add-apps {
+.bg-orange {
     background-color: #f54927;
 }
 
@@ -76,10 +76,6 @@ p, div {
     margin: 20px;
 }
 
-.app-cards {
-    justify-content: space-between;
-}
-
 .search-box {
     display: flex;
     max-width: 500px;
@@ -89,6 +85,7 @@ p, div {
     background-color: white;
     padding: 0 12px;
     border-radius: 4px;
+    align-items: center;
 }
 
 .search-input {
